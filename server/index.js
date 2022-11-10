@@ -19,4 +19,6 @@ app.use(cookieParser());
 app.use('/api/user', authRoute);
 app.use('/api/data', dataRoute);
 
-app.listen(3000, () => console.log('API Up'));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => console.log(`API Up on port ${PORT}`));
