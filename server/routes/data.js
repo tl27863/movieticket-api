@@ -58,7 +58,7 @@ router.post('/screening', authToken, authRole, async (req,res) => {
     }
 });
 
-router.post('/ticket', authToken, authRole, async (req,res) => {
+router.post('/ticket', authToken, async (req,res) => {
     const{ error } = ticketValidation(req.body);
     if(error) return res.status(400).send(error);
 
