@@ -1,4 +1,4 @@
-const Joi = require('@hapi/Joi');
+const Joi = require('joi');
 
 const registerValidation = (data) => {
     const registerSchema = Joi.object({
