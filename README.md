@@ -1,6 +1,14 @@
 # Movie-Project
 A Movie Ticket Booking PWA
 
+<br>
+
+Stack :
+- MongoDB
+- Express.js
+- Next.js
+- Node.js
+
 ## Frontend
 In Development
 
