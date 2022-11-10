@@ -1,10 +1,4 @@
-# Movie-Project
-A Movie Ticket Booking PWA
-
-## Frontend
-In Development
-
-## Backend
+## API Routes
 > API Endpoint : https://tl27863-movie-project.up.railway.app/
 >
 > Body : raw/json
